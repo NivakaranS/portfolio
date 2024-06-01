@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivakaran</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/logon.png">
+
+</head>
+<body>
+    <nav class="mainNavigationContainer ">
+        <div >
+            <img class="mainlogo" src="./images/logon.png">
+        </div>
+        <ul class="navigationContainer">
+            <li class="navList">Home</li>
+            <li class="navList">Projects</li>
+            <li class="navList">About</li>
+            <li class="navList">Contact</li>
+        </ul>
+    </nav>
+    <div class="basicContainer">
+        <div class="basicLeftContainer">
+            
+        </div>
+        <div class="basicRightContainer">
+            <div class="container">
+                <div class="hello">
+                    <span>Hello there!</span>
+                </div >
+                <div class="name">
+                    <span>This is Nivakaran</span>
+                </div>
+                
+                <div>
+                    <span class="text first-text">I'm a </span>
+                    <span class="text second-text"></span>
+                </div>
+                <div>
+                    <button class="knowBtn">
+                            Know more
+                            <img class="arrow" src="./images/right-arrow.png">
+                        
+                        
+                    </button>
+                </div>
+                
+
+
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="aboutContainer">
+        <div class="aboutTitle">
+            About Me
+        </div>
+        <div class="innerAboutContainer">
+            
+                
+                <div class="aboutMe">
+                    <div class="aboutLeftContainer">
+                        
+                    </div>
+                    <div class="aboutRightContainer">
+                        
+                    </div>
+                </div>
+                
+            
+        </div>
+        <div class="quoteContainer">
+            <div class="quote">
+                Stay hungry, stay foolish
+            </div>
+            <div class="jobs">
+                -Steve Jobs
+            </div>
+        </div>
+    </div>
+
+    <div class="projectsContainer">
+        <div class="innerProjectsContainer">
+            <span class="projectTitle">Projects</span>
+            <div class="cardContainer">
+                <div class="projectCard">
+
+                </div>
+                <div class="projectCard">
+                    
+                </div>
+                <div class="projectCard">
+                    
+                </div>
+                <div class="projectCard">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="contactContainer">
+        <div class="innerContactContainer">
+            ContactContainer
+        </div>
+    </div>
+
+
+    <footer>
+        <div>
+            <ul class="socialMedia">
+                <li class="social"><a href="http://www.linkedin.com/in/nivakaran"><img class="socialLogo" src="./images/linkedin.png"></a></li>
+                <li class="social"><a href="https://github.com/NivakaranS"><img class="socialLogo" src="./images/github (1).png"></a></li>
+                <li class="social"><a href="https://www.instagram.com/nivakarans/"><img class="socialLogo" src="./images/instagram.png"></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Nivakaran Shanmugabavan - All Rights Reserved
+        </div>
+    </footer>
+    
+
+    <script >
+        const text = document.querySelector(".second-text");
+        
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Full stack web developer"
+
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Java developer"
+
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Graphic designer"
+
+            }, 8000);
+        }
+
+        textLoad();
+        setInterval(textLoad, 12000);
+
+    </script>
+</body>
+</html>
