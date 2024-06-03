@@ -14,14 +14,25 @@
             <img class="mainlogo" src="./images/logon.png">
         </div>
         <ul class="navigationContainer">
-            <li class="navList">Home</li>
-            <li class="navList">Projects</li>
-            <li class="navList">About</li>
-            <li class="navList">Contact</li>
+            <li class="navList" id="homeNav">Home</li>
+            <li class="navList" id="projectsNav">Projects</li>
+            <li class="navList" id="aboutNav">About</li>
+            <li class="navList" id="contactNav">Contact</li>
         </ul>
+        <div>
+            <button class="downloadBtn">Download resume</button>
+        </div>
+    </nav>
+    <nav class="mobileNavigation">
+            <img class="menuLogo" src="./images/menu.png">
+            <img class="mainlogo" src="./images/logon.png">
+            <button class="knowBtn mobileBtn">Download resume</button>
+        
     </nav>
     <div class="basicContainer">
         <div class="basicLeftContainer">
+            
+            <img class="basicImage" src="./images/portrait.png">
             
         </div>
         <div class="basicRightContainer">
@@ -33,12 +44,12 @@
                     <span>This is Nivakaran</span>
                 </div>
                 
-                <div>
+                <div class="chaningText">
                     <span class="text first-text">I'm a </span>
                     <span class="text second-text"></span>
                 </div>
                 <div>
-                    <button class="knowBtn">
+                    <button id="knowBtn" class="knowBtn">
                             Know more
                             <img class="arrow" src="./images/right-arrow.png">
                         
@@ -54,7 +65,7 @@
         
     </div>
 
-    <div class="aboutContainer">
+    <div id="aboutContainer" class="aboutContainer">
         <div class="aboutTitle">
             About Me
         </div>
@@ -66,7 +77,14 @@
                         
                     </div>
                     <div class="aboutRightContainer">
-                        
+                        <div class="aboutContent">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ipsam expedita nam sint nemo fuga facere tempore quidem ad incidunt fugiat perferendis possimus, minima rerum ut minus? Sed, non voluptatem!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis quis expedita nam accusantium laborum soluta sint nulla possimus nisi eligendi, ipsum doloribus esse aperiam provident neque quos, ipsam accusamus!
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus assumenda ad vel aspernatur quos asperiores at doloribus. Enim tenetur dolor velit ipsum dolores minima, alias laborum culpa omnis officia!
+                            </p>
+                            <button class="cv">Download resume</button>
+
+                        </div>
                     </div>
                 </div>
                 
@@ -74,40 +92,280 @@
         </div>
         <div class="quoteContainer">
             <div class="quote">
-                Stay hungry, stay foolish
+                "Stay hungry, stay foolish"
             </div>
             <div class="jobs">
                 -Steve Jobs
             </div>
         </div>
     </div>
+    <div class="skillsContainer">
+        <div class="skillsTitle">
+            Skills
+        </div>
+        <div class="skillsOuterContainer">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                  <div class="scroll-item"><img class="skillLogo" src="./images/java.png"></div>
+                  <div class="scroll-item"><img class="skillLogo" src="./images/python-logo.png"></div>
+                  <div class="scroll-item"><img class="html" src="./images/html-final.png"></div>
+                  <div class="scroll-item"><img class="html" src="./images/css.png"></div>
+                  <div class="scroll-item"><img class="javascript" src="./images/javascript-es6-final.png"></div>
+                  <div class="scroll-item"><img class="react" src="./images/react-finalLogo.png"></div>
+                  <div class="scroll-item"><img class="reactNative" src="./images/reactNative.png"></div>
+                  <div class="scroll-item"><img class="node" src="./images/node-new2.png"></div>
+                  <div class="scroll-item"><img class="node" src="./images/TensorFlow.png"></div>
+
+                  <div class="scroll-item"><img class="skillLogo" src="./images/java.png"></div>
+                  <div class="scroll-item"><img class="skillLogo" src="./images/python-logo.png"></div>
+                  <div class="scroll-item"><img class="html" src="./images/html-final.png"></div>
+                  <div class="scroll-item"><img class="html" src="./images/css.png"></div>
+                  <div class="scroll-item"><img class="javascript" src="./images/javascript-es6-final.png"></div>
+                  <div class="scroll-item"><img class="react" src="./images/react-finalLogo.png"></div>
+                  <div class="scroll-item"><img class="reactNative" src="./images/reactN"></div>
+                  <div class="scroll-item"><img class="node" src="./images/node-new2.png"></div>
+                  <div class="scroll-item"><img class="tensor" src="./images/TensorFlow.png"></div>
+
+                  <div class="scroll-item"><img class="skillLogo" src="./images/java.png"></div>
+                  <div class="scroll-item"><img class="skillLogo" src="./images/python-logo.png"></div>
+                  <div class="scroll-item"><img class="html" src="./images/html-final.png"></div>
+                  <div class="scroll-item"><img class="html" src="./images/css.png"></div>
+                  <div class="scroll-item"><img class="javascript" src="./images/javascript-es6-final.png"></div>
+                  <div class="scroll-item"><img class="react" src="./images/react-finalLogo.png"></div>
+                  <div class="scroll-item"><img class="reactNative" src="./images/react-native.png"></div>
+                  <div class="scroll-item"><img class="node" src="./images/node-new2.png"></div>
+                  <div class="scroll-item"><img class="node" src="./images/TensorFlow.png"></div>
+                  <!-- Add more items as needed -->
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="licenseCertificationContainer">
+        <div class="innerCertificationContainer">
+            <div class="certificationTitle">
+                License and certifications
+            </div>
+            <div class="innerCertificationContainer2">
+                <div class="gridContainer">
+                    
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Complete Web Development</p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Andrei Neagoie</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">Nov. 25, 2023</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/webDevelopment-certificate.jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">Nov 2023</span></p>
+                                        <p>Credential ID <span class="grey">UC-0aeb6d1d-dc7b-4ba6-aecf-2cc774b2c29c</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Complete UI/UX Designer</p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Andrei Neagoie, Daniel Bourke</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">Dec. 31, 2023</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/UIUX-certificate].jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">Dec 2023</span></p>
+                                        <p>Credential ID <span class="grey">UC-5e929664-5636-40c0-bebe-9df2ad3a34af</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Java 17 Masterclass: Start Coding in 2024</p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Tim Buchalka</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">Jan. 26, 2024</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/java-certificate.jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">Jan 2024</span></p>
+                                        <p>Credential ID <span class="grey">UC-bd752d03-be80-4532-98ce-77b54656b8bf</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Learn Python & Ethical Hacking from Scratch </p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Zaid Sabih</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">April. 23, 2024</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/pythonHacking-certificate.jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">April 2024</span></p>
+                                        <p>Credential ID <span class="grey">UC-5b27ff0d-fe45-46a9-942c-485d0a13118b</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Complete AI & Machine Learning, Data Science Bootcamp</p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Andrei Neagoie, Daniel Bourke</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">Feb. 28, 2024</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/machineLearning-certificate.jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">Feb 2024</span></p>
+                                        <p>Credential ID <span class="grey">UC-f40d10df-c93e-4d1e-af98-b8802f58431d</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">React Native - The Practical Guide [2024]</p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Maximilian Schwrzmuller</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">Pending</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/webDevelopment-certificate.jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">Pending</span></p>
+                                        <p>Credential ID <span class="grey">UC-0aeb6d1d-dc7b-4ba6-aecf-2cc774b2c29c</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">TensorFlow for Deep Learning Bootcamp</p>
+                                
+                                <p class="certificateFrontCardDetails">Instructors: <span class="bold">Andrei Neagoie, Daniel Bourke</span></p>
+                                <p class="certificateFrontCardDetails">Issue date: <span class="bold">Pending</span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="webDeveloper">
+                                    <img class="certificate" src="./images/webDevelopment-certificate.jpg">
+                                </div>
+                                <div class="certificateDetailContainer">
+                                    <div>
+                                        <p>Issued <span class="grey">Pending</span></p>
+                                        <p>Credential ID <span class="grey">UC-0aeb6d1d-dc7b-4ba6-aecf-2cc774b2c29c</span></p>
+
+                                    </div>
+                                    
+                                    <button class="credentialsBtn">Show credentials</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
 
     <div class="projectsContainer">
+        <span class="projectTitle">Projects</span>
         <div class="innerProjectsContainer">
-            <span class="projectTitle">Projects</span>
-            <div class="cardContainer">
-                <div class="projectCard">
-
-                </div>
-                <div class="projectCard">
-                    
-                </div>
-                <div class="projectCard">
-                    
-                </div>
-                <div class="projectCard">
-                    
-                </div>
-
+            <div class="cardInnerContainer">
+                <img class="workInProgress" src="./images/work-in-progress.png" alt="">
+                <p>Stay tuned!</p>
             </div>
         </div>
+    </div>
+
+    <div class="HireMeContainer">
+        <div class="hireInnerContainer">
+            <div class="hireDetails">
+                <p>Got anything in your mind? Let's make something awesome together!</p>
+                
+            </div>
+            <button class="hireBtn">Hire me</button>
+
+        </div>
+        
     </div>
 
 
 
     <div class="contactContainer">
+        <div class="contactTitle">
+            Contact
+        </div>
         <div class="innerContactContainer">
-            ContactContainer
+            <p>Email: <span>nivakaran@hotmail.com</span></p>
+            <p>Mobile: <span>0760015755</span></p>
+            
         </div>
     </div>
 
@@ -142,11 +400,96 @@
                 text.textContent = "Graphic designer"
 
             }, 8000);
+            setTimeout(() => {
+                text.textContent = "UI/UX Designer"
+
+            }, 12000);
         }
 
         textLoad();
-        setInterval(textLoad, 12000);
+        setInterval(textLoad, 16000);
 
+
+
+    </script>
+
+    <script>
+        // Select the button and target location
+            const scrollBtn = document.getElementById('knowBtn');
+            const home = document.getElementById('homeNav');
+            const projects = document.getElementById('projectsNav');
+            const about = document.getElementById('aboutNav');
+            const contact = document.getElementById('contactNav');
+            // Add click event listener to the button
+            scrollBtn.addEventListener('click', () => {
+            // Scroll to the target location
+            const x = 0;
+            const y = 682;
+
+            window.scrollTo({
+                left: x,
+                top: y,
+                behavior:'smooth'
+            });
+            });
+
+            home.addEventListener('click', () => {
+
+                const x = 0;
+                const y = 0;
+
+                window.scrollTo({
+                    left: x,
+                    top: y,
+                    behavior:'smooth'
+                });
+
+
+            });
+
+            projects.addEventListener('click', () => {
+
+                const x = 0;
+                const y = 3135;
+
+                window.scrollTo({
+                    left: x,
+                    top: y,
+                    behavior:'smooth'
+                });
+
+
+            });
+
+            about.addEventListener('click', () => {
+
+                const x = 0;
+                const y = 682;
+
+                window.scrollTo({
+                    left: x,
+                    top: y,
+                    behavior:'smooth'
+                });
+
+
+            });
+
+            contact.addEventListener('click', () => {
+
+                const x = 0;
+                const y = 3900;
+
+                window.scrollTo({
+                    left: x,
+                    top: y,
+                    behavior:'smooth'
+                });
+
+
+            });
+
+            
     </script>
 </body>
 </html>
