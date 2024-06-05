@@ -8,7 +8,7 @@
     
 }
 
-body {
+body {b
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -216,6 +216,7 @@ footer {
     align-items: center;
     justify-content: left;
     height: auto;
+    overflow-x: hidden;
   }
 
   .basicContainer {
